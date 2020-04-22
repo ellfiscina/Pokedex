@@ -1,0 +1,38 @@
+.Pokecard {
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 1px 4px 4px lightgrey;
+}
+
+.Pokecard hr {
+    width: 260px;
+    border: 0.5px solid lightgray;
+}
+
+.Pokecard-media {
+    height: 220px;
+}
+
+.Pokecard-name {
+    text-align: start;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.Pokecard p {
+    font-size: 15px;
+    color: gray;
+}
+
+.Pokecard-type {
+    text-align: start;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.Pokecard-exp {
+    margin: 0;
+    text-align: end;
+}
