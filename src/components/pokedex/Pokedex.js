@@ -7,9 +7,9 @@ class Pokedex extends Component {
     render() {
         return(
             <div className="Pokedex">
-                <ul>
-                    {pokemonList.map(i => <li key={i.id}><Pokecard attr={i}/></li>)}
-                </ul>
+                <div className="Pokedex-grid">
+                    {pokemonList.map(i => <div className="Pokedex-item" key={i.id}><Pokecard attr={i}/></div>)}
+                </div>
             </div>
         );
     }

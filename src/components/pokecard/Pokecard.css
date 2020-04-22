@@ -21,18 +21,41 @@
     margin-bottom: 5px;
 }
 
-.Pokecard p {
-    font-size: 15px;
-    color: gray;
-}
-
 .Pokecard-type {
     text-align: start;
     margin: 0;
     text-transform: capitalize;
+    color: #504e4e;
+    font-size: 15px;
 }
 
 .Pokecard-exp {
     margin: 0;
     text-align: end;
+    font-size: 15px;
+    color: grey;
+}
+
+.water {
+    color: blue;
+}
+
+.fire {
+    color: red;
+}
+
+.bug {
+    color: green;
+}
+
+.electric {
+    color: yellow;
+}
+
+.flying {
+    color: orange;
+}
+
+.poison {
+    color: purple;
 }

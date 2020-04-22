@@ -18,7 +18,7 @@ class Pokecard extends Component {
                 </div>
                 <hr />
                 <h2 className="Pokecard-name">{name}</h2>
-                <p className="Pokecard-type">{type}</p>
+                <p className={type + " Pokecard-type"}>{type}</p>
             </div>
         );
     }

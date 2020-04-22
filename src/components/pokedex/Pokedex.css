@@ -1,3 +1,16 @@
-.Pokedex ul {
-    list-style: none;
+.Pokedex {
+    margin: 20px 0px;
+}
+.Pokedex-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Pokedex-item {
+    flex-basis: 20%;
+    -ms-flex: auto;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
 }
