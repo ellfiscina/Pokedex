@@ -29,11 +29,17 @@
     font-size: 15px;
 }
 
-.Pokecard-exp {
-    margin: 0;
-    text-align: end;
+.Pokecard-header p{
     font-size: 15px;
+    margin: 0;
     color: grey;
+}
+.Pokecard-id {
+    float: left;
+}
+
+.Pokecard-exp {
+    float: right;
 }
 
 .water {
