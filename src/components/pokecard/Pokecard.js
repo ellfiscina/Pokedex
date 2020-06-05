@@ -11,14 +11,14 @@ class Pokecard extends Component {
         let imgSrc = `${POKE_API}${formatId(id)}.png`;
 
         return (
-            <div className="Pokecard">
+            <div className={"Pokecard " + type}>
                 <div className="Pokecard-media">
                     <p className="Pokecard-exp">{base_experience} XP</p>
                     <img src={imgSrc} alt={name} />
                 </div>
                 <hr />
                 <h2 className="Pokecard-name">{name}</h2>
-                <p className={type + " Pokecard-type"}>{type}</p>
+                <p className="Pokecard-type">{type}</p>
             </div>
         );
     }

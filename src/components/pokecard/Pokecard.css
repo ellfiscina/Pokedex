@@ -37,25 +37,29 @@
 }
 
 .water {
-    color: blue;
+    background-color: #c5eff7;
 }
 
 .fire {
-    color: red;
+    background-color: #fbded6;
 }
 
 .bug {
-    color: green;
+    background-color: #c8f7c5;
 }
 
 .electric {
-    color: yellow;
+    background-color: #fefad4;
 }
 
 .flying {
-    color: orange;
+    background-color: #e4f1fe;
 }
 
 .poison {
-    color: purple;
+    background-color: #f1e7fe;
+}
+
+.normal {
+    background-color: #eee;
 }
